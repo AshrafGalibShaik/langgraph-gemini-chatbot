@@ -1,6 +1,3 @@
-Absolutely! Here is the **full step-by-step guide in markdown** format ready for your README.md:
-
-````markdown
 # LangGraph Gemini Chatbot
 
 A simple chatbot built using [LangGraph](https://github.com/langchain-ai/langgraph) and Gemini (Google Generative AI) via `langchain-google-genai`.
@@ -77,13 +74,4 @@ python main.py
 * Streaming responses may print incrementally in the console
 * Customize chatbot logic by editing `chatbot_node` in `main.py`
 
----
 
-## License
-
-MIT License
-
-```
-
-If you want, I can also help generate the other files like `.env.example`, `.gitignore`, and `requirements.txt`. Just ask!
-```
