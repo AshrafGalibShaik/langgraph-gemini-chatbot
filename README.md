@@ -1,2 +1,18 @@
-# langgraph-gemini-chatbot
-A basic interactive chatbot built using LangGraph and Google Gemini generative AI, demonstrating state management and streaming responses."  If you want it a bit shorter:  "Basic chatbot demo using LangGraph with Google Gemini AI integration."
+# LangGraph Gemini Chatbot
+
+A simple chatbot built using [LangGraph](https://github.com/langchain-ai/langgraph) and Gemini (Google Generative AI) via `langchain-google-genai`.
+
+## Features
+
+- Uses LangGraph for state management
+- Integrates Gemini (via `langchain_google_genai`)
+- Streamed chatbot responses
+- Easy interactive CLI loop
+
+## Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/langgraph-gemini-chatbot.git
+cd langgraph-gemini-chatbot
