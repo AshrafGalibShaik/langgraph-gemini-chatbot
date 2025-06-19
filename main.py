@@ -20,7 +20,7 @@ llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
     google_api_key=google_api_key
 )
-
+            
 # Define the node: this is the actual chatbot logic
 def chatbot_node(state: State) -> State:
     messages = state["messages"]
@@ -42,8 +42,8 @@ def stream_graph_updates(user_input: str):
         for value in event.values():
             print("Assistant:", value["messages"][-1].content)
 
-# Chat loop
-if __name__ == "__main__":
+# Main function to run the chat loop
+def main():
     while True:
         try:
             user_input = input("User: ")
